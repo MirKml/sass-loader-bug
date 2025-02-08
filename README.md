@@ -24,4 +24,4 @@ Can't find stylesheet to import.
 ...
 ```
 
-It work without extension, try to remove css extension from `@use` -> `@use "react-datepicker/dist/react-datepicker", then `npm run build` works without error.
+It work without extension, try to remove css extension from `@use` in main.scss -> `@use "react-datepicker/dist/react-datepicker", then `npm run build` works without error.
