@@ -34,7 +34,7 @@ module.exports = () => {
                         },
                     ],
                 },
-                // css - exclude init loading, it is handled separately
+                // css
                 {
                     test: /\.css?$/,
                     use: [MiniCssExtractPlugin.loader, "css-loader"],
