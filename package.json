@@ -4,7 +4,8 @@
   "description": "sass loader bug #1252",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-prod": "webpack --mode production",
+    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,13 @@
   },
   "homepage": "https://github.com/MirKml/sass-loader-bug#readme",
   "dependencies": {
-    "css-loader": "^7.1.2",
     "react": "^17.0.2",
     "react-datepicker": "^4.8.0",
-    "react-dom": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
     "sass-embedded": "^1.83.4",
     "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
