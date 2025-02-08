@@ -1,0 +1,13 @@
+# common IDE files/folders
+.vscode
+.DS_STORE
+.module-cache
+*.log*
+sln
+.vs
+.idea
+# common application ignores
+node_modules
+dist
+# vim swap files
+*.swp
