@@ -1,13 +1,13 @@
 Reproduction for sass loader bug https://github.com/webpack-contrib/sass-loader/issues/1252.
 Sass with `@use` importing with extension doesn't work. See [main.scss](https://github.com/MirKml/sass-loader-bug/blob/main/src/main.scss) file content.
 
-
 ```
 > npm i
 > npm run build
 ```
 
-Result 
+Result:
+
 ```
 asset main.js 5.61 KiB [emitted] (name: main)
 orphan modules 39 bytes [orphan] 1 module
